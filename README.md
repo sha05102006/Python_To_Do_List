@@ -1,2 +1,5 @@
-# Python_To_Do_List
-This project is the create a simple and user friendly desktop application for managing daily tasks and improving productivity
+# Intern Details:
+
+*Intern ID:* CITS1691
+*Full Name:* Shashath.B.S
+*No.Of Weeks:* 4 Weeks
