@@ -69,3 +69,34 @@ https://docs.python.org/3/library/dialog.html
 Used for customizing the appearance of text in the application.
 
 https://docs.python.org/3/library/tkinter.font.html
+
+## Output (Video):
+
+WriteUp_ToDoList_Demo.mp4
+
+## Output (Images):
+
+### Main Application Window:
+
+Screenshot_Main_Window.png
+
+### Adding Tasks:
+
+Screenshot_Add_Task.png
+
+### Saving Task List:
+
+Screenshot_Save_List.png
+
+### Opening Saved Task List:
+
+Screenshot_Open_List.png
+
+## Issues:
+
+* The application does not automatically save tasks when closing the program.
+* Crossed-off tasks are permanently removed when saving the list.
+* No task priority system is available.
+* No due date or reminder functionality.
+* Error handling for empty task entries is limited.
+* Application icon path is hardcoded and may not work on different systems without modification.
