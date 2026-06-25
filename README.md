@@ -21,3 +21,51 @@ The scope of this project is to provide a simple and user-friendly desktop appli
 * Providing both vertical and horizontal scrolling support for easier navigation through long task lists.
 
 This project helps users manage their personal tasks, improve organization, and maintain productivity through a simple desktop interface.
+
+## Features:
+
+### Task Management
+
+* Add new tasks using the input field.
+* Delete selected tasks instantly.
+* Mark completed tasks by crossing them off.
+* Restore completed tasks back to pending status.
+
+### File Management
+
+* Save task lists into ".dat" files using file dialogs.
+* Open previously saved task lists.
+* Automatically load stored tasks from saved files.
+
+### User Interface
+
+* Built using Python Tkinter.
+* Easy-to-use graphical interface.
+* Scrollbars for handling large numbers of tasks.
+* Menu-based options for file operations and task handling.
+
+## Modules Used:
+
+### Tkinter
+
+Used for creating the graphical user interface.
+
+https://docs.python.org/3/library/tkinter.html
+
+### Pickle
+
+Used for saving and loading task data from files.
+
+https://docs.python.org/3/library/pickle.html
+
+### File Dialog
+
+Used for selecting files and save locations through graphical dialogs.
+
+https://docs.python.org/3/library/dialog.html
+
+### Tkinter Font
+
+Used for customizing the appearance of text in the application.
+
+https://docs.python.org/3/library/tkinter.font.html
