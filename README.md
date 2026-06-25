@@ -72,25 +72,25 @@ https://docs.python.org/3/library/tkinter.font.html
 
 ## Output (Video):
 
-WriteUp_ToDoList_Demo.mp4
+https://github.com/user-attachments/assets/f24da4a1-3ebe-4a60-b2d5-fb6662342c9c
 
 ## Output (Images):
 
 ### Main Application Window:
 
-Screenshot_Main_Window.png
+<img width="619" height="660" alt="Screenshot 2026-06-25 214723" src="https://github.com/user-attachments/assets/aa9d7a7f-1d2a-4f08-8617-d99e3699942e" />
 
 ### Adding Tasks:
 
-Screenshot_Add_Task.png
+<img width="621" height="660" alt="Screenshot 2026-06-25 214807" src="https://github.com/user-attachments/assets/b22b4513-88a6-4481-9334-4078dadde0ae" />
 
 ### Saving Task List:
 
-Screenshot_Save_List.png
+<img width="625" height="659" alt="Screenshot 2026-06-25 214828" src="https://github.com/user-attachments/assets/842c7dbe-931e-424d-8620-517b2627acea" />
 
 ### Opening Saved Task List:
 
-Screenshot_Open_List.png
+<img width="618" height="660" alt="Screenshot 2026-06-25 214858" src="https://github.com/user-attachments/assets/ab0a6404-ac72-4c75-8023-1b9599f57ad3" />
 
 ## Issues:
 
