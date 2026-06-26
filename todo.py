@@ -88,8 +88,10 @@ def delete_crossed_item():
             count += 1
 
 def save_list():
-    file_name = filedialog.asksaveasfilename(
-        initialdir="C:/Users/shash/code_section/Python_ToDoList/data",
+    script_dir_list = os.path.dirname(os.path.abspath(__file__))
+    data_folder = os.path.join(script_dir_list, "data")
+    file_name = filedialog.askopenfilename(
+        initialdir=data_folder,
         title="Save File",
         filetypes=(("Dat Files", "*.dat"),
                    ("All Files", "*.*"))
