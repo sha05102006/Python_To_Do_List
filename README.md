@@ -46,6 +46,12 @@ This project helps users manage their personal tasks, improve organization, and 
 
 ## Modules Used:
 
+### Os
+
+Used for easy access operating system dependent functionality
+
+https://docs.python.org/3/library/os.html
+
 ### Tkinter
 
 Used for creating the graphical user interface.
