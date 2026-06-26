@@ -117,8 +117,10 @@ def save_list():
         pickle.dump(stuff, output_file)
 
 def open_list():
+    script_dir_list = os.path.dirname(os.path.abspath(__file__))
+    data_folder = os.path.join(script_dir_list, "data")
     file_name = filedialog.askopenfilename(
-        initialdir="C:/Users/shash/code_section/Python_ToDoList/data",
+        initialdir=data_folder,
         title="Open File",
         filetypes=(("Dat Files", "*.dat"),
                    ("All Files", "*.*"))
