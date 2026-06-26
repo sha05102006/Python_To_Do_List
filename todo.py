@@ -1,3 +1,4 @@
+import os
 from tkinter import *
 from tkinter.font import Font
 from tkinter import filedialog
@@ -5,7 +6,9 @@ import pickle
 
 root = Tk()
 root.title('WriteUp - To Do List!')
-root.iconbitmap(r"C:\Users\shash\code_section\Python_ToDoList\images.ico")
+script_dir = os.path.dirname(__file__)
+icon_path = os.path.join(script_dir, "images", "images.ico")
+root.iconbitmap(icon_path)
 root.geometry("500x500")
 
 # Define our Font
@@ -29,12 +32,6 @@ my_list = Listbox(my_frame,
                   highlightthickness=0,
                   selectbackground="#a6a6a6",
                   activestyle="none")
-
-#Create a dummy list
-#stuff=["Walk the dog","Learnt python tkinter","Buy groceries for the house"]
-#Add the dummy list to list box
-#for item in stuff:
-    #my_list.insert(END, item)
 
 #Add scrollbar
 side_scrollbar = Scrollbar(my_frame, orient=VERTICAL)
@@ -164,14 +161,8 @@ file_menu.add_command(label="Delete Crossed Item", command=delete_crossed_item)
 #Add some buttons
 add_button = Button(button_frame, text="Add Item", command=add_item)
 delete_button = Button(button_frame, text="Delete Item", command=delete_item)
-#cross_off_button = Button(button_frame, text="Cross Off Item", command=cross_off_item)
-#uncross_button = Button(button_frame, text="Uncross Item", command=uncross_item)
-#delete_crossed_button = Button(button_frame, text="Delete Crossed Item", command=delete_crossed_item)
 
 add_button.grid(row=0, column=0)
 delete_button.grid(row=0, column=1, padx=20)
-#cross_off_button.grid(row=0, column=2)
-#uncross_button.grid(row=0, column=3, padx=20)
-#delete_crossed_button.grid(row=0, column=4)
 
 root.mainloop()
